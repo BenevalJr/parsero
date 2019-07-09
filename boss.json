@@ -1,0 +1,13 @@
+{
+	"name": "parsero",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "",
+	"mainsrc": "Src/",
+	"projects": [
+		"Parsero.dproj"
+	],
+	"dependencies": {
+		"github.com/hunsche/datasetconverter4delphi": "^2.0.0"
+	}
+}
