@@ -15,17 +15,7 @@ type
     procedure FromJSON(AJSON: TJSONArray); overload;
   end;
 
-  TParsero = class(TComponent)
-  end;
-
-procedure Register;
-
 implementation
-
-procedure Register;
-begin
-  RegisterComponents('HashLoad', [TParsero]);
-end;
 
 { TParseroHelper }
 
