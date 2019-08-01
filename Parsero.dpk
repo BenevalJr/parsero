@@ -29,8 +29,7 @@ package Parsero;
 {$IMPLICITBUILD ON}
 
 requires
-  rtl,
-  dbrtl;
+  DataSetConverter4Delphi{BOSS};
 
 contains
   System.Parsero in 'Src\System.Parsero.pas';
