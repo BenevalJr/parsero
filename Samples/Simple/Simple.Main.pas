@@ -31,7 +31,6 @@ type
     Memo1: TMemo;
     Button1: TButton;
     Button2: TButton;
-    Parsero: TParsero;
     procedure Button1Click(Sender: TObject);
     procedure Button2Click(Sender: TObject);
   private

@@ -206,8 +206,4 @@ object Form5: TForm5
     Left = 412
     Top = 272
   end
-  object Parsero: TParsero
-    Left = 404
-    Top = 120
-  end
 end
