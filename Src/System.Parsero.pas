@@ -13,6 +13,7 @@ type
     procedure ToJSON(out AJSON: TJSONArray); overload;
     procedure FromJSON(AJSON: TJSONObject); overload;
     procedure FromJSON(AJSON: TJSONArray); overload;
+    procedure EditFromJson(AJSON: TJSONObject);
   end;
 
 implementation
@@ -22,6 +23,11 @@ implementation
 procedure TParseroHelper.FromJSON(AJSON: TJSONObject);
 begin
   TConverter.New.JSON.Source(AJSON).ToDataSet(Self);
+end;
+
+procedure TParseroHelper.EditFromJson(AJSON: TJSONObject);
+begin
+  TConverter.New.JSON.Source(AJSON).ToRecord(Self);
 end;
 
 procedure TParseroHelper.FromJSON(AJSON: TJSONArray);
